@@ -2,9 +2,14 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+.mdl-ripple {
+  background: #ff853f;
+  opacity: 0.001;
+}
+
 .mdl-layout__header-row {
-  align-items: center;
   justify-content: center;
+  padding: 0;
 }
 
 .mdl-layout__content {
@@ -13,20 +18,39 @@
   padding-top: 15pt;
 }
 
-/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
-*/
-.mdl-ripple {
-  background: #000;
-  opacity: 0.001;
+.page-content {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+.mdl-layout-title {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+.mdl-button {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
 }
 
 body {
-  background-color: #ffbc57;
+  background-color: #ffc15d;
 }
 
-p {
+.answer {
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
-  padding-top: 5pt;
+  font-size: 1.25rem;
+}
+
+/* Fanta image */
+#fanta-bottle {
+  display: block;
+  margin-left: 800px;
+  margin-right: 1000px;
+  margin-top: -190px;
+  margin-bottom: 10px;
 }

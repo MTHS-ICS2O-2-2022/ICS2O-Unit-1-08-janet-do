@@ -34,7 +34,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="page-content">
-        Click the button.
+        
       </div>
       <br />
       <br />
@@ -57,14 +57,33 @@
     </header>
     <main class="mdl-layout__content">
       <div class="page-content">
-        Click the button.
+        Lorem ipsum..
       </div>
       <br />
+      <!-- Simple Textfield for integers-->
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <!-- input pattern attribute -->
+          <input class="mdl-textfield__input" type="text" pattern="[0-9]*" id="demo-input" />
+          <!-- mdl-textfield__label -->
+          <label class="mdl-textfield__label" for="demo-input">input in mm</label>
+          <!-- class "mdl-textfield__error" -->
+          <span class="mdl-textfield__error">Not an amount</span>
+        </div>
+      </form>
       <!-- Raised button with ripple -->
       <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
         onclick="myButtonClicked()">
         Submit
       </button>
+      <br>
+      <br>
+      <div class="answer">
+        The answer is...
+      </div>
+      <div id="fanta-bottle">
+        <img src="./images/fantabulous-image.jpeg" alt="Fanta">
+      </div>
     </main>
   </div>
 </body>

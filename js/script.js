@@ -9,8 +9,8 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-UNIT-1-08-JANET-DO/sw.js", {
-    scope: "/ICS2O-UNIT-1-08-JANET-DO/",
+  navigator.serviceWorker.register("/ICS2O-Unit-1-08-janet-do/sw.js", {
+    scope: "/ICS2O-Unit-1-08-janet-do/",
   })
 }
 function myButtonClicked() {
